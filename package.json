@@ -1,0 +1,24 @@
+{
+  "name": "protobuf-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build:proto": "pbjs -t json-module -w commonjs -o ./proto/proto.js  ./proto/*.proto"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "protobufjs": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.14",
+    "@types/protobufjs": "^6.0.0",
+    "protobufjs-cli": "^1.0.2"
+  }
+}
